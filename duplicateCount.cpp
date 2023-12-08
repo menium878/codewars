@@ -1,3 +1,4 @@
+#include <string>
 std::size_t duplicateCount(const std::string& word){
     std::string words;
     std::string woord=word;
