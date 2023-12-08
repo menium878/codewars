@@ -1,3 +1,4 @@
+#include <vector>
 char findMissingLetter(const std::vector<char>& chars)
 {
     for(int i=0;i<chars.size();i++){
