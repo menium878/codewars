@@ -1,3 +1,4 @@
+#include <string>
 std::string duplicate_encoder(const std::string& word){
     std::string words;
     std::string woord=word;
