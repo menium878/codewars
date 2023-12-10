@@ -1,6 +1,6 @@
 #include <string>
 #include <vector>
-#include <unordered_map>
+#include <map>
 #include <iostream>
 #include <algorithm>
 
@@ -13,7 +13,7 @@ public:
 };
 
 std::string SumOfDivided::sumOfDivided(std::vector<int> &lst) {
-    std::unordered_map <int,int>mojmap;
+    std::map <int,int>mojmap;
     std::vector<int>temp;
     for(int a:lst){
         temp=primeFactorsprimeFactors(a);
