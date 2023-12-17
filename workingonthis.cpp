@@ -37,7 +37,8 @@ unsigned int countPatternsFrom(char firstDot, unsigned short length) {
             ile=8;
             break;
     }
-
+    //! Remove the possiblities from the vector
+    //? Mayby keeping trac of the used once would be better
     //std::remove(lol.begin(), lol.end(),firstDot);
     if (length==2) return ile;
     length--;
