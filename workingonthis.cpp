@@ -3,7 +3,7 @@
 #include <vector>
 #include <unordered_map>
 
-std::vector<char> lol={'A','B','C','D','E','F','G','H','I'};
+std::vector<char> lol={'A','B','C','D','E','F','G','H','I'}; // need to take into consideration what I used already and what I want to take for the loop can't be global I know
 unsigned int countPatternsFrom(char firstDot, unsigned short length) {
     if (length < 2) return length;
     if (length > 9) return 0;
