@@ -41,3 +41,14 @@ long nextBigger(long n) {
     return findNext(a,a.length());
 
 }
+
+
+
+//! Another fun function
+#include <algorithm>
+long nextBigger(long n) {
+
+    std::string str = std::to_string(n);
+    return std::next_permutation(str.begin(), str.end()) ? std::stol(str) : -1;
+
+}
