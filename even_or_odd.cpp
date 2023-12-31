@@ -1,3 +1,6 @@
-//
-// Created by Menium on 12/31/2023.
-//
+#include <string>
+
+std::string even_or_odd(int number)
+{
+    return number%2==0?"Even":"Odd";
+}
