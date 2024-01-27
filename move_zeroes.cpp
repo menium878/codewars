@@ -15,6 +15,6 @@ std::vector<int> move_zeroes(const std::vector<int>& input) {
 
 
 auto move_zeroes(std::vector<int> v) {
-    stable_partition(begin(v), end(v), std::negate());
+    stable_partition(begin(v), end(v), std::negate()); // if false then go to end and 0 have not negation
     return v;
 }
