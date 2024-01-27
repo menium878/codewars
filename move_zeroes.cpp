@@ -12,3 +12,9 @@ std::vector<int> move_zeroes(const std::vector<int>& input) {
     }
     return k;
 }
+
+
+auto move_zeroes(std::vector<int> v) {
+    stable_partition(begin(v), end(v), std::negate());
+    return v;
+}
