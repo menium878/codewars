@@ -15,3 +15,16 @@ std::string to_camel_case(std::string text) {
     }
     return a;
 }
+
+/*Testing
+Describe(Testing_function_to_camel_case)
+{
+    It(Basic_tests)
+    {
+        Assert::That(to_camel_case(""), Equals(""));
+        Assert::That(to_camel_case("the_stealth_warrior"), Equals("theStealthWarrior"));
+        Assert::That(to_camel_case("The-Stealth-Warrior"), Equals("TheStealthWarrior"));
+        Assert::That(to_camel_case("A-B-C"), Equals("ABC"));
+    }
+};
+*/
